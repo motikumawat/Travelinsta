@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Travelista</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="D:/Project/Travelinsta/css/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#tabs" ).tabs();
+          } );
+
+
+    </script>
+  </head>
+  <body>
+      <header class="head " style="margin-left: 72px;color: black">
+          <a style="font-size: 12px" href="#">visit us </a> &nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size: 12px" href="#">Buy ticket</a>
+      </header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="margin-top:3px;background:#0f0f1052;padding: 0 72px;">
+                <a class="navbar-brand" href="#">Travalinsta</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Package</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hotels</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Insurence</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contect</a>
+                                </li>
+                            </ul>
+
+                </div>
+              </nav>
+
+
+<section id="feature-one">
+        <div class="container">
+            <div class="row feature-content">
+
+                    <div class="col-lg-8 display-3">
+                            <h6>away from monotonous life</h6>
+                            <h1>magical travel </h1>
+                            <p class="lead">
+                                If you are looking at blank cassettes on the web. you may be very confused at
+                                the difference in price. You may see some for as low as $.17 each.
+
+                            </p>
+                            <button class="btn btn-warning btn-lg text-white">GET STARTED</button>
+                    </div>
+
+<div class="col-lg-4">
+  <div  class="" id="tabs" style="background:  #0f0f1052;">
+  <ul class=" nav navbar row" style="padding: 0; margin: 0;text-decoration: none"> 
+    <li class="col-sm-4 text-center"><a style="text-decoration: none;" href="#tabs-1">FlIGHT</a></li>
+    <li class="col-sm-4 text-center"><a style="text-decoration: none;" href="#tabs-2">HOTEL</a></li>
+    <li class="col-sm-4 text-center"><a style="text-decoration: none;"href="#tabs-3">Holiday</a></li>
+  </ul>
+  <div id="tabs-1" class="">
+    <form class="form" action="" style="background: white">
+
+            <input class="form-control" type="text" name="From" id="" placeholder="From"><br>
+            <input class="form-control" type="text" name="To" id="" placeholder="To"><br>
+            <input class="form-control" type="date" name="Start" id="" placeholder="Start"><br>
+            <input class="form-control" type="date" name="Return" id="" placeholder="Return"><br>
+            <input class="form-control" type="number" name="Adults" id="" placeholder="Adults"><br>
+            <input class="form-control" type="number" name="Child" id="" placeholder="Child"><br>
+            <div class="text-center">
+            <button class="btn btn-warning btn text-white" type="submit">SEARCH FLIGHT</button>
+          </div>
+    </form>
+  </div>
+  <div id="tabs-2">
+    <form class="form" action="" style="background: white;">
+
+            <input class="form-control" type="text" name="search-hotel" id="" placeholder="Enter city, Area or Hotel Name..."><br>
+
+            <input class="form-control" type="date" name="check-in" id="" placeholder="Check In"><br>
+            <input class="form-control" type="date" name="check-out" id="" placeholder="Check Out"><br>
+            <input class="form-control" type="number" name="Adults" id="" placeholder="Adults"><br>
+            <input class="form-control" type="number" name="Child" id="" placeholder="Child"><br>
+              <input class="form-control" type="number" name="Room" id="" placeholder="Room"><br>
+              <div class="text-center">
+                  <button class="btn btn-warning btn text-white" type="submit">SEARCH HOTEL</button>
+                </div>
+
+    </form>
+  </div>
+  <div id="tabs-3">
+    <form class="form" action="" style="background: white;">
+
+            <input class="form-control" type="text" name="From" id="" placeholder="Destination"><br>
+            <input class="form-control" type="text" name="From" id="" placeholder="Any Departure point"><br>
+            <input class="form-control" type="date" name="From" id="" placeholder="Any Date"><br>
+            <input class="form-control" type="number" name="From" id="" placeholder="Nights"><br>
+            <input class="form-control" type="number" name="From" id="" placeholder="Room"><br>
+            <input class="form-control" type="number" name="From" id="" placeholder="Adults"><br>
+            <div class="text-center">
+                <button class="btn btn-warning btn text-white" type="submit">SEARCH HOLIDAY</button>
+              </div>
+
+    </form>
+  </div>
+</div>
+                            <!-- <nav class=" nav navbar navbar-expand-sm navbar-dark bg-faded">
+
+
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">FlIGHT</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">HOTEL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="#">HOLIDAY</a>
+                                        </li>
+                                    </ul>
+
+                                </nav>
+                                <form class="form" action="" style="margin-top: 1rem;background: white;opacity: 1;">
+
+                                        <input class="form-control" type="text" name="From" id="" placeholder="From"><br>
+                                        <input class="form-control" type="text" name="From" id="" placeholder="To"><br>
+                                        <input class="form-control" type="text" name="From" id="" placeholder="Start"><br>
+                                        <input class="form-control" type="text" name="From" id="" placeholder="Return"><br>
+                                        <input class="form-control" type="text" name="From" id="" placeholder="Adults"><br>
+                                        <input class="form-control" type="text" name="From" id="" placeholder="Child"><br>
+                                        <button class="btn btn-warning btn text-white" type="submit">SEARCH FLIGHT</button>
+
+                                </form> -->
+</div>
+
+
+        </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
